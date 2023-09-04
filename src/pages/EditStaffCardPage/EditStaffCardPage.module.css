@@ -1,0 +1,31 @@
+.editCompanyStaffCardPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 400px;
+}
+
+.leftBlock {
+  width: 60%;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .content {
+    width: 90%;
+  }
+}
+

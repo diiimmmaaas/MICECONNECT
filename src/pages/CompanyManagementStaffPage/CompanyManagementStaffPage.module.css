@@ -1,0 +1,117 @@
+.companyStaff {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.categoriesBlock {
+  width: 50%;
+}
+
+.searchMobileComponent {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.content {
+  padding-top: 63px;
+  width: 90%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerBlock {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 8px;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.filtersIconBlock {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F8F8F8;
+}
+
+.filtersIcon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.addSiteBtn {
+  width: 351px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1439px) {
+  .content {
+    padding-top: 0;
+    margin-bottom: 10px;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .addSiteBtn {
+    width: 215px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .header {
+    align-items: center;
+    margin-top: 64px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .content {
+    padding-top: 0;
+  }
+  .header {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .addSiteBtn {
+    width: 100%;
+  }
+  .title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .categoriesBlock {
+    width: 90%;
+  }
+}
+

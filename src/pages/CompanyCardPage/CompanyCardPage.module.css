@@ -1,0 +1,40 @@
+.companyCardPage {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  width: 80%;
+  margin-bottom: 400px;
+}
+
+.leftBlock {
+  width: 60%;
+}
+
+@media screen and (max-width: 1439px) {
+  .content {
+    width: 90%;
+  }
+  .leftBlock {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 90%;
+  }
+  .leftBlock {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .content {
+    margin-bottom: 0;
+  }
+}

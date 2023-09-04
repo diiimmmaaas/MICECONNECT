@@ -1,0 +1,54 @@
+.app__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #72757a;
+  height: 100vh;
+  margin-inline: auto;
+}
+
+.date__container {
+  background-color: var(--background-color-calendar);
+  font-size: 15px;
+  color: var(--color-text);
+  border-radius: 15px;
+  padding: 5px 25px;
+  margin-bottom: 15px;
+}
+
+:root {
+  --color-text: #434141;
+  --color-active-text: #ffffff;
+  --color-placeholder: rgba(0, 0, 0, 0.5);
+  --color-additional: #93b1ff;
+  --color-additional7: rgba(147, 177, 255, 0.7);
+  --background-color-calendar: #ededed;
+  --background-color-calendar-header: #ffffff;
+
+  --images-arrow: url('../images/arrow_black.svg');
+}
+
+:root {
+  --color-text: #434141;
+  --color-active-text: #ffffff;
+  --color-placeholder: rgba(0, 0, 0, 0.5);
+  --color-additional: rgb(100, 188, 255);
+  --color-additional7: rgba(100, 188, 255, 0.7);
+  --background-color-calendar: #ededed;
+  --background-color-calendar-header: rgb(136, 202, 252);
+
+  --images-arrow: url('../images/arrow_black.svg');
+}
+
+:root {
+  --color-text: #1B1B1B;
+  --color-active-text: #ffffff;
+  --color-placeholder: #808080;
+  --color-additional: #1B1B1B;
+  --color-additional7: rgba(147, 177, 255, 0.7);
+  --background-color-calendar: #ffffff;
+  --background-color-calendar-header: #ffffff;
+
+  --images-arrow: url('../images/arrow_black.svg');
+}

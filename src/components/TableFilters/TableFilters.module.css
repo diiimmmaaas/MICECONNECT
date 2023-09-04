@@ -1,0 +1,138 @@
+.tableFilters {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.tableControlBlock {}
+
+.tableBtns {
+  display: flex;
+  gap: 15px;
+}
+
+.filtersBtn,
+.filtersAllBtn {
+  width: auto;
+  height: auto;
+  padding: 10px 22px;
+  background: #FFFFFF;
+  font-family: 'Jeko-Medium', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  border: 1px solid #E5E7EB;
+  border-radius: 100px;
+}
+
+.filtersAllBtn {
+  padding: 10px 34px;
+}
+
+.filtersBtn:hover,
+.filtersAllBtn:hover {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 100px;
+}
+
+.filtersBtn:active,
+.filtersAllBtn:active{
+  background: #F1F1F1;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+}
+
+.filtersBtn:disabled,
+.filtersAllBtn:disabled {
+  background: #C1C1C1;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+  cursor: auto;
+}
+
+.active {
+  border: 1px solid #000;
+}
+
+
+.tableSearch {
+  width: 351px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+  border-radius: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 4px;
+}
+
+.tableSearch:hover {
+  box-shadow: 0 2px 28px rgba(31, 41, 55, 0.06);
+}
+
+.input {
+  width: 70%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.input::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #C1C1C1;
+}
+
+.glassBlock {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #FD5C20;
+  box-shadow: 0 1px 2px rgba(31, 41, 55, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glassIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1439px) {
+  .tableBtns {
+    gap: 10px;
+  }
+  .filtersAllBtn {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 4px 20px;
+  }
+  .tableSearch {
+    width: 215px;
+    height: 40px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .filtersBtn,
+  .filtersAllBtn {
+    padding: 4px 15px;
+  }
+}
+
+

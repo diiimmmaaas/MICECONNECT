@@ -1,0 +1,164 @@
+.event {
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider {
+  width: 314px;
+  height: 308px;
+  border-radius: 15px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.slider ul {
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+}
+
+.slideImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 308px;
+  width: 314px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.eventDescriptionBlock {
+  width: 314px;
+}
+
+.title {
+  font-family: 'Jeko-Bold', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 4px;
+}
+.subTitle {
+  font-size: 14px;
+  line-height: 17px;
+  color: #6B7280;
+  margin-bottom: 19px;
+}
+.personCount {
+  width: 100%;
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+.personCountIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.personCountText {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.arrowPrevBlock,
+.arrowNextBlock {
+  position: relative;
+  width: 28px !important;
+  height: 28px !important;
+  background: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrowPrevBlock {
+  left: 3.5% !important;
+}
+
+.arrowNextBlock {
+  right: 3.5% !important;
+}
+
+
+.arrowPrev,
+.arrowNext {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1495px) {
+  .slider {
+    width: 304px;
+    height: 298px;
+  }
+  .slideImage {
+    width: 304px;
+    height: 298px;
+  }
+  .eventDescriptionBlock {
+    width: 304px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  /*.arrowNextBlock,*/
+  /*.arrowPrevBlock {*/
+  /*  display: none;*/
+  /*}*/
+  .slider {
+    width: 227px;
+    height: 225px;
+  }
+  .slideImage {
+    width: 227px;
+    height: 225px;
+  }
+  .eventDescriptionBlock {
+    width: 227px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /*.arrowNextBlock,*/
+  /*.arrowPrevBlock {*/
+  /*  display: none;*/
+  /*}*/
+  .slider {
+    width: 217px;
+    height: 215px;
+  }
+  .slideImage {
+    width: 217px;
+    height: 215px;
+  }
+  .eventDescriptionBlock {
+    width: 217px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slider {
+    width: 335px;
+    height: 329px;
+  }
+  .slideImage {
+    width: 335px;
+    height: 329px;
+  }
+  .eventDescriptionBlock {
+    width: 335px;
+  }
+  /*.arrowNextBlock,*/
+  /*.arrowPrevBlock {*/
+  /*  display: none;*/
+  /*}*/
+}

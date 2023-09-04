@@ -1,0 +1,17 @@
+.react-slideshow-container .nav:first-of-type {
+  position: absolute;
+  left: -5%;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.react-slideshow-container .nav:last-of-type {
+  position: absolute;
+  right: -7%;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  z-index: 1;
+}

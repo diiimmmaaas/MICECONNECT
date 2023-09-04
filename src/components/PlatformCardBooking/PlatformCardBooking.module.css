@@ -1,0 +1,223 @@
+.platformCardBooking {
+  width: 100%;
+  padding: 45px 24px;
+  background: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.04), 0 0 15px rgba(31, 41, 55, 0.1);
+  border-radius: 12px;
+  display: flex;
+}
+
+.form {
+  width: 100%;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 14px;
+}
+
+.formContainer {
+  width: 100%;
+}
+
+.inputGroup {
+}
+
+.subtitle {
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #6B7280;
+  margin-bottom: 11px;
+}
+
+.dateContainer {
+  width: 100%;
+  height: 55px;
+  border-radius: 10px;
+  background: #F8F8F8;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeContainer {
+  width: 100%;
+  height: 55px;
+  border-radius: 10px;
+  background: #F8F8F8;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.datePickerInput {
+  width: 100%;
+  height: 55px;
+  border-radius: 10px;
+  background: #F8F8F8;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #000000;
+  font-family: Jeko-Medium;
+  font-size: 16px;
+  line-height: 20px;
+  min-height: 14px;
+  padding-left: 30px;
+}
+
+.datePickerInput::placeholder {
+  color: #000000;
+  font-family: Jeko-Medium;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+
+.inputTimeBlock {
+  width: 100%;
+  height: 100%;
+}
+
+.dateIcon,
+.timeIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.dropDown {
+  top: 100px;
+  left: 0;
+  right: initial;
+}
+
+.timeIcon {
+  position: absolute;
+  top: 35%;
+  left: 15px;
+  z-index: 1;
+}
+
+.dateValue {
+
+}
+
+.closeIcon {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.companyBlock {
+  width: 100%;
+  height: 55px;
+  background: #F8F8F8;
+  border: 1px solid #FDFDFD;
+  border-radius: 12px;
+  padding: 17px;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.submitBtn {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 22px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  padding-left: 16px;
+}
+
+.smallinput {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 22px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  padding-left: 35px !important;
+}
+
+.inputError {
+  border: 1px solid #EC1A3C;
+  margin-bottom: 22px;
+}
+
+.dateBlock,
+.timeBlock {
+  display: flex;
+  gap: 25px;
+}
+
+.dateLeftBlock,
+.dateRightBlock,
+.timeLeftBlock,
+.timeRightBlock {
+  width: 50%;
+  position: relative;
+}
+
+
+.leftDateIcon,
+.rightDateIcon,
+.leftTimeIcon,
+.rightTimeIcon {
+  position: absolute;
+  left: 10px;
+  top: 40%;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1439px) {
+  .platformCardBooking {
+    padding: 45px 34px;
+  }
+  .submitBtn {
+    width: 553px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .platformCardBooking {
+    padding: 20px 15px;
+  }
+  .dateLeftBlock,
+  .dateRightBlock,
+  .timeLeftBlock,
+  .timeRightBlock {
+    width: 46%;
+  }
+  .smallinput {
+    padding-left: 30px;
+  }
+}

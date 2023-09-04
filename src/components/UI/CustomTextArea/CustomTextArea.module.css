@@ -1,0 +1,74 @@
+.textareaBlock {
+  height: 133px;
+  width: 100%;
+  background: #F8F8F8;
+  border: 1px solid #F8F8F8;
+  border-radius: 12px;
+  padding-bottom: 17px;
+  margin-bottom: 27px;
+}
+
+.textarea {
+  width: 100%;
+  background: #F8F8F8;
+  border: 1px solid #F8F8F8;
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  position: relative;
+  resize: none;
+  padding: 17px;
+  overflow: hidden;
+}
+
+.textarea::placeholder {
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #6B7280;
+}
+
+.inputFile {
+  display: none;
+}
+
+.uploadedFile {
+  padding: 5px 0 10px 20px;
+  word-wrap: break-word;
+  width: 100%;
+}
+
+.deleteIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.labelBlock {
+  display: flex;
+}
+
+.label {
+  padding: 5px 0 10px 20px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.uploadIcon {
+}
+
+.uploadText {
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #6B7280;
+}

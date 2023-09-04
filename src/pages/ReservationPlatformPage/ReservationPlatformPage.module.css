@@ -1,0 +1,184 @@
+.reservationStatusPage {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  width: 80%;
+  margin-top: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 374px;
+}
+
+.title {
+  width: 356px;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 581px;
+  border: 1px solid #E5E7EB;
+  border-radius: 18px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.topBlock {
+  width: 100%;
+  display: flex;
+  gap: 26px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.reservationImg {
+  width: 174px;
+  height: 124px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.reservationShortInformationBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.subTitle {
+  font-family: 'Jeko-Bold', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid #E5E7EB;
+  margin-bottom: 24px;
+}
+
+.bottomBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.detailsTitle {
+  font-family: 'Jeko-Bold', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.detailsBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.detailsDescription {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detailsText {
+  font-size: 16px;
+  line-height: 20px;
+  color: #6B7280;
+}
+
+.detailsValue {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.btn {
+  width: 290px;
+  height: 48px;
+  font-family: 'Jeko-Bold', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    width: 90%;
+    margin-top: 77px;
+    margin-bottom: 274px;
+  }
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+  .title {
+    margin-bottom: 30px;
+  }
+  .reservationImg {
+    width: 124px;
+    height: auto;
+  }
+  .subTitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .description {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .topBlock {
+    align-items: normal;
+    margin-bottom: 20px;
+  }
+  .line {
+    margin-bottom: 20px;
+  }
+  .detailsTitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .bottomBlock {
+    gap: 20px;
+  }
+  .detailsText {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .detailsValue {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .btn {
+    width: 221px;
+    height: 45px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+

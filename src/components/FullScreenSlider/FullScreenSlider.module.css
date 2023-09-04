@@ -1,0 +1,56 @@
+.fullScreenSlider {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.headerBlock {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+}
+
+.iconContainer {
+  width: 32px;
+  height: 32px;
+  background: #F8F8F8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.iconContainer:hover {
+  background: #EBEBEC;
+}
+
+.exitIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.slider {
+  width: 70%;
+  height: 100%;
+}
+
+.slideImagesContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.oneImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}

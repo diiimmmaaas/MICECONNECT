@@ -1,0 +1,263 @@
+.searchPanelContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchPanel {
+  width: 647px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+  border-radius: 1000px;
+  display: flex;
+  justify-content: space-between;
+  padding: 9px;
+  align-items: center;
+}
+
+.searchPanel:hover {
+  box-shadow: 0 2px 28px rgba(31, 41, 55, 0.06);
+}
+
+.cityBlock {
+  width: 30%;
+  height: 100%;
+  position: relative;
+}
+
+.dateBlock {
+  width: 15%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.dropDown {
+  top: 50px;
+  left: -130px;
+  padding: 30px;
+  min-width: 350px;
+  max-height: max-content;
+}
+
+.dropDownTime {
+  top: 50px;
+  left: -130px;
+  padding: 30px;
+  min-width: 300px;
+  max-height: max-content;
+}
+
+.dropDownContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.timeBlock {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputTimeTitle {
+  color: #000;
+  font-family: Jeko-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.errorBlock {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #EC1A3C;
+  text-align: center;
+}
+
+.inputsBlock {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.inputBlock {
+  min-width: 73px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  background: #F8F8F8;
+}
+
+.inputTimeBlock {
+  min-width: 73px;
+  min-height: 56px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  background: #F8F8F8;
+  display: flex;
+  align-items: center;
+}
+
+.inputTitle {
+  font-family: Jeko-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.datePickerInput {
+  background: #F8F8F8;
+  min-height: 56px;
+  cursor: pointer;
+}
+
+.inputDropDown {
+  width: 100%;
+  color: #6B7280;
+  font-family: Jeko-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  background: #F8F8F8;
+}
+
+.inputDropDown::placeholder {
+  color: #6B7280;
+  font-family: Jeko-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  background: #F8F8F8;
+}
+
+.hourBlock {
+  width: 15%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.cityBlock:after,
+.dateBlock:after,
+.hourBlock:after{
+  position: absolute;
+  content: '';
+  height: 100%;
+  background: #6B7280;
+  border: 1px solid #E5E7EB;
+  right: 0;
+}
+
+.cityInput:focus::placeholder,
+.input:focus::placeholder {
+  color: transparent;
+}
+
+.guestsBlock {
+  width: 30%;
+  height: 100%;
+}
+
+.cityBlock,
+.dateBlock,
+.hourBlock,
+.guestsBlock {
+  display: flex;
+  align-items: center;
+}
+
+.cityInput {
+  width: 90%;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  padding-left: 20px;
+}
+
+.cityInput::placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.input {
+  padding-left: 10px;
+  width: 90%;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input::placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.glassBlock {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #FD5C20;
+  box-shadow: 0 1px 2px rgba(31, 41, 55, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.glassIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1439px) {
+  .glassBlock {
+    width: 30px;
+    height: 30px;
+  }
+  .cityInput {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .input {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .input::placeholder {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .searchPanel {
+    display: none;
+  }
+}

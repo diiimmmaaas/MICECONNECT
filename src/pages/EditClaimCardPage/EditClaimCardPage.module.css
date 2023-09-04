@@ -1,0 +1,44 @@
+.editClaimCardPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headerBlock {
+  width: 80%;
+  margin-top: 50px;
+}
+
+
+.content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin-bottom: 240px;
+}
+
+@media screen and (max-width: 1439px) {
+  .headerBlock {
+    width: 85%;
+  }
+  .content {
+    width: 90%;
+    gap: 30px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .headerBlock {
+    margin-top: 0;
+    width: 90%;
+  }
+  .content {
+    width: 90%;
+    gap: 30px;
+  }
+}
+

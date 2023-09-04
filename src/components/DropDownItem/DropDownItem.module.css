@@ -1,0 +1,21 @@
+.dropDownItem {
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.dropDownItem:hover {
+  height: 40px;
+  background: #F8F8F8;
+  border-radius: 10px;
+}
+
+.dropDownItem.active {
+  font-family: 'Jeko-Bold', sans-serif;
+}

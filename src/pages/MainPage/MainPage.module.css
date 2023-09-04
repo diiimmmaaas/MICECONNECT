@@ -1,0 +1,49 @@
+.mainPage {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  padding-top: 63px;
+  width: 90%;
+  margin-bottom: 232px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
+}
+
+.title {
+  margin-bottom: 27px;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.addSiteBtn {
+  width: 242px !important;
+  height: 48px !important;
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .content {
+    padding-top: 0;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .addSiteBtn {
+    width: 100% !important;
+  }
+}

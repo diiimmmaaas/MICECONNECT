@@ -1,0 +1,38 @@
+.popupHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.title {
+  font-family: 'Jeko-Bold', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  white-space: pre-wrap;
+}
+
+.iconContainer {
+  width: 32px;
+  height: 32px;
+  background: #F8F8F8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.iconContainer:hover {
+  background: #EBEBEC;
+}
+
+.exitIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+

@@ -1,0 +1,45 @@
+.formHeaderBlock {
+  width: 100%;
+  padding-top: 59px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 92px;
+}
+
+.closeButtonBorder {
+  width: 42px;
+  height: 42px;
+  background: #F8F8F8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.closeButtonBorder:hover {
+  background: #EBEBEC;
+}
+
+.closeButton {
+  width: 26.25px;
+  height: 26.25px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 767px) {
+  .closeButtonBorder {
+    width: 32px;
+    height: 32px;
+  }
+  .closeButton {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+  }
+  .formHeaderBlock {
+    margin-bottom: 94px;
+    width: 100%;
+  }
+}

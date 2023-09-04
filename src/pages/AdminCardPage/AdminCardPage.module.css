@@ -1,0 +1,38 @@
+.adminCard {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 80%;
+  margin-top: 60px;
+  margin-bottom: 400px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .container {
+    margin-bottom: 253px;
+  }
+}

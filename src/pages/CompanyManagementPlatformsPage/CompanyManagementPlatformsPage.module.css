@@ -1,0 +1,84 @@
+.companyPlatforms {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  padding-top: 63px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 328px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.title {
+  margin-bottom: 8px;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.addSiteBtn {
+  width: 242px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.headerBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .addSiteBtn {
+    width: 252px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .content {
+    margin-bottom: 23px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .content {
+    padding-top: 0;
+    margin-bottom: 240px;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .addSiteBtn {
+    width: 100%;
+  }
+}

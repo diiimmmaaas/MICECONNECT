@@ -1,0 +1,73 @@
+.header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-bottom: 51px;
+  margin-top: 64px;
+}
+
+.arrowLeftBlock {
+  position: absolute;
+  left: -7%;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #F8F8F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrowLeft {
+  width: 6px;
+  height: 12px;
+  object-fit: contain;
+}
+
+.titleBlock {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Jeko-Bold', sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.functionalBlock {
+
+}
+
+@media screen and (max-width: 1439px) {
+  .title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .header {
+    margin-bottom: 42px;
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 40px;
+  }
+  .arrowLeftBlock {
+    left: 0;
+  }
+  .header {
+    margin-bottom: 30px;
+    width: 90%;
+    margin-top: 0;
+  }
+}

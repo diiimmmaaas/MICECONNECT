@@ -1,0 +1,18 @@
+.passwordRecoveryConfirmation {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), lightgray 50% / cover no-repeat;
+  position: relative;
+}
+
+.formContentBlock {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.leftBlock {
+  width: 60%;
+}

@@ -1,0 +1,100 @@
+.shortInformationBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.title {
+  font-family: 'Jeko-Bold', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 21px;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 21px;
+}
+
+.leftBlock,
+.rightBlock {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 13px;
+}
+
+.cityBlock,
+.addressBlock,
+.companyNameBlock,
+.capacityBlock {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.cityTitle,
+.addressTitle,
+.companyNameTitle,
+.capacityTitle {
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #6B7280;
+}
+
+.cityName,
+.addressName,
+.companyName,
+.capacityName {
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.companyName {
+  cursor: pointer;
+}
+
+.companyName:hover {
+  text-decoration: underline;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid #E5E7EB;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .container {
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .leftBlock {
+    width: 60%;
+  }
+  .rightBlock {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    margin-bottom: 15px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .leftBlock,
+  .rightBlock {
+    width: 100%;
+  }
+}

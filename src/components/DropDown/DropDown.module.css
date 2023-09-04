@@ -1,0 +1,37 @@
+.dropDownMenu {
+  position: absolute;
+  top: 83px;
+  right: 0;
+  min-width: 270px;
+  max-height: 300px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.17);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.dropDownMenu.active{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: 500ms ease;
+  z-index: 2;
+}
+
+.dropDownMenu.inactive{
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 500ms ease;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 767px) {
+  .dropDownMenu {
+    height: auto;
+    top: 55px;
+  }
+}

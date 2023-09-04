@@ -1,0 +1,129 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 40px;
+  gap: 10px;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E5E7EB;
+  transform: rotate(-0.04deg);
+  padding: 24px 0 24px 0;
+}
+
+.searchMobileComponent {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.profileBtn {
+  min-width: 174px;
+  height: 48px;
+  background: #000000;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+  border-radius: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  cursor: pointer;
+  position: relative;
+  gap: 3px;
+}
+
+.burger {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 261px;
+  max-height: 300px;
+  position: relative;
+}
+
+
+.profileBtn:hover {
+  background: #2D2D2D;
+}
+
+.profileBtnIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.profileBtnText {
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+.arrowDown {
+  width: 15px;
+  height: 10px;
+  object-fit: contain;
+}
+
+.dropDownList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  gap: 2px;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.exitBlock {
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  gap: 6.5px;
+  cursor: pointer;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.exitBlock:hover {
+  height: 40px;
+  background: #F8F8F8;
+  border-radius: 10px;
+}
+
+.exitIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.exitText {
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+}
+
+@media screen and (max-width: 1439px) {
+  .profileBtn {
+    min-width: 73px;
+    height: 40px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .container {
+    border: none;
+    height: 104px;
+    padding: 0;
+  }
+}

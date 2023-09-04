@@ -1,0 +1,329 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.formHeaderBlock {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 92px;
+}
+
+.logo,
+.partOfLogo {
+  font-family: 'Futura Bk BT', sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.partOfLogo {
+  color: #FD5C20;
+}
+
+.closeButtonBorder {
+  width: 42px;
+  height: 42px;
+  background: #F8F8F8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.closeButtonBorder:hover {
+  background: #EBEBEC;
+}
+
+.closeButton {
+  width: 26.25px;
+  height: 26.25px;
+  object-fit: contain;
+}
+
+.formContentBlock {
+  width: 100%;
+  padding-left: 98px;
+  padding-right: 98px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftBlock {
+  width: 475px;
+}
+
+.title,
+.whiteTitle {
+  font-family: 'Jeko-Bold', sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 24px;
+  white-space: pre-wrap;
+}
+
+.whiteTitle {
+  color: #FFFFFF;
+}
+
+.formContainer {}
+
+.inputGroup {
+  margin-bottom: 30px;
+}
+
+.subtitle,
+.whiteSubtitle {
+  font-family: 'Jeko-Bold', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.whiteSubtitle {
+  color: #FFFFFF;
+}
+
+.inputError {
+  border: 1px solid #EC1A3C !important;
+}
+
+.errorContainer {
+  min-height: 20px;
+  margin-top: 6px;
+}
+
+.errorValidation {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 130%;
+  color: #EC1A3C;
+  text-align: center;
+}
+
+.confirmValidation {
+  margin-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 130%;
+  color: #2c8112;
+  text-align: center;
+}
+
+.networkError {
+  margin-top: 20px;
+}
+
+.networkConfirm {
+  margin-top: 20px;
+}
+
+.emptyTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.emptyTableText {
+  text-align: center;
+}
+
+.input {
+  /*margin-bottom: 20px;*/
+}
+
+.redStar {
+  color: #EC1A3C;
+}
+
+.buttonGroup {
+
+}
+
+.rightBlock {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.mainImg {
+  width: 100%;
+}
+
+.mainImgTextFirst {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  transform: rotate(-7deg);
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.mainImgTextSecond {
+  position: absolute;
+  bottom: 5px;
+  left: 40px;
+  transform: rotate(-7deg);
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  text-transform: lowercase;
+}
+
+.paginationContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitBtn {
+  width: 100% !important;
+}
+
+@media screen and (max-width: 1439px) {
+  .buttonGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainImgTextFirst {
+    font-size: 15px;
+    left: -5px;
+  }
+
+  .mainImgTextSecond {
+    font-size: 15px;
+    bottom: 10px;
+    left: 23px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .formContentBlock {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .leftBlock {
+    width: 399px;
+  }
+  .formContentBlock {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .whiteTitle {
+    width: 404px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo,
+  .partOfLogo {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .container {
+    width: 100%;
+  }
+  .formContainer {
+    width: 100%;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 130%;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .leftBlock {
+    width: 100%;
+  }
+  .formContentBlock {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .buttonGroup {
+    width: 100%;
+  }
+  .submitBtn {
+    width: 100% !important;
+  }
+  .input {
+    width: 100%;
+  }
+  .rightBlock {
+    width: 100%;
+  }
+  .errorValidation {
+    font-size: 12px;
+    line-height: 130%;
+  }
+  .mainImgTextFirst {
+    left: 132px;
+    bottom: 50px;
+  }
+
+  .mainImgTextSecond {
+    bottom: 30px;
+    left: 160px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .whiteTitle {
+    width: 100%;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .rightBlock {
+    margin-bottom: 20px;
+  }
+  .mainImgTextFirst {
+    left: 20px;
+    bottom: 30px;
+  }
+
+  .mainImgTextSecond {
+    bottom: 13px;
+    left: 45px
+  }
+}

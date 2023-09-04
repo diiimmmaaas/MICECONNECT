@@ -1,0 +1,100 @@
+.loginDetailsBlock {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.loginDetailsHeader {
+  padding: 23px 28px 12px 28px;
+  background: #F8F8F8;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #E5E7EB;
+  border-left: 1px solid #E5E7EB;
+  border-right: 1px solid #E5E7EB;
+}
+
+.loginDetailsTitle {
+  font-family: 'Jeko-Bold', sans-serif;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.loginDetailsContainer {
+  display: flex;
+  width: 100%;
+  gap: 23px;
+  flex-direction: column;
+  padding: 30px;
+  border-bottom:  1px solid #E5E7EB;
+  border-left:  1px solid #E5E7EB;
+  border-right:  1px solid #E5E7EB;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.informationItem {
+  width: 100%;
+  display: flex;
+}
+
+.title {
+  width: 40%;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #6B7280;
+}
+
+.value {
+  width: 50%;
+  font-family: 'Jeko-Bold', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  gap: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.dotIcon {
+  width: 7px;
+  height: 7px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .loginDetailsHeader {
+    padding: 18px 10px;
+  }
+  .loginDetailsContainer {
+    padding: 20px 10px;
+  }
+  .loginDetailsBlock {
+    margin-bottom: 30px;
+  }
+  .informationItem {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .informationItem {
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+    align-items: flex-start;
+  }
+}
+
+
+

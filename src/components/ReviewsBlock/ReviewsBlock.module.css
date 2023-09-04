@@ -1,0 +1,19 @@
+.reviewsBlock {
+  width: 100%;
+  max-height: 735px;
+  overflow-y: auto;
+}
+
+.reviewsBlock::-webkit-scrollbar {
+  width: 4px;
+}
+
+.reviewsBlock::-webkit-scrollbar-track {
+  background: #F8F8F8;
+}
+
+.reviewsBlock::-webkit-scrollbar-thumb {
+  background-color:  #6B7280;
+  border-radius: 20px;
+  border: 3px solid #6B7280;
+}

@@ -1,0 +1,75 @@
+.claimFilters {
+  width: 874px;
+}
+
+.headerForm {
+  margin-bottom: 42px;
+}
+
+.filtersBlock {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px;
+  margin-bottom: 54px;
+  overflow: auto;
+}
+
+.filterBlock {
+  width: 48%;
+}
+
+.checkboxStyle {
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.checkboxStyle:hover {
+  border: 1px solid #000000;
+}
+
+.checkboxStyle:checked {
+  background: black url("../../assets/icons/check.svg") no-repeat center content-box;;
+}
+
+.spanStyle {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.filersControl {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clearBtn {
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #6B7280;
+  cursor: pointer;
+}
+
+.clearBtn:hover {
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.submitBtn {
+  width: 336px;
+  height: 48px;
+}

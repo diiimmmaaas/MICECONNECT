@@ -1,0 +1,120 @@
+.uploadPhotoContainer {
+  height: 100%;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  position: relative;
+}
+
+.arrowLeftContainer,
+.arrowRightContainer {
+  cursor: pointer;
+  position: absolute;
+}
+
+.arrowLeftContainer {
+  left: 0;
+}
+
+.arrowRightContainer {
+  right: 0;
+}
+
+.arrowIcon {
+
+}
+
+.uploadPhotoText {
+  font-size: 20px;
+  line-height: 125%;
+  color: #414141;
+  margin-bottom: 8px;
+}
+
+.uploadedPhotoBlock {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 100%;
+  min-height: 99px;
+  background-color: #FFFFFF;
+  margin-bottom: 24px;
+  padding: 16px;
+}
+
+.uploadedImage {
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.uploadPhotoBoard {
+  width: 90%;
+  height: 100%;
+  background: #FFFFFF;
+  color: #303030;
+  display: flex;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.label {
+  width: 146px;
+  height: 100%;
+  border: 1px dashed #C1C1C1;
+  border-radius: 12px;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #6B7280;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.label:hover {
+  background: #F8F8F8;
+}
+
+.uploadIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-bottom: 6px;
+}
+
+.activeLabel {
+  border: 2px dashed #0004ff;
+}
+
+.inputFile {
+  display: none;
+}
+
+
+.btnContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 767px) {
+  .arrowLeftContainer {
+    left: -10px;
+  }
+  .arrowRightContainer {
+    right: -10px;
+  }
+  .label {
+    height: 97%;
+  }
+}

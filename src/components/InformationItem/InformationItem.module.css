@@ -1,0 +1,80 @@
+.informationItem {
+  width: 100%;
+  display: flex;
+}
+
+.title {
+  width: 40%;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #6B7280;
+}
+
+.valuesBlock {
+  width: 50%;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.firstValueBlock,
+.secondValueBlock {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.value {
+  width: 50%;
+  font-family: 'Jeko-Bold', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.notEditValue {
+  width: 50%;
+  font-family: 'Jeko-Bold', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8B8B8B;
+}
+
+@media screen and (max-width: 1439px) {
+  .informationItem {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .informationItem {
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+    align-items: flex-start;
+  }
+  .valuesBlock {
+    gap: 20px;
+  }
+  .value {
+    word-wrap: break-word;
+    width: 100%;
+  }
+  .notEditValue {
+    word-wrap: break-word;
+    width: 100%;
+  }
+  .title {
+    width: 100%;
+  }
+}
+

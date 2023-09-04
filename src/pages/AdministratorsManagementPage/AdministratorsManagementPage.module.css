@@ -1,0 +1,82 @@
+.administratorsManagementPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.searchMobileComponent {
+  position: absolute;
+  top: 110px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.content {
+  padding-top: 63px;
+  width: 90%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-bottom: 8px;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.addSiteBtn {
+  min-width: 242px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1439px) {
+  .title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .addSiteBtn {
+    width: 252px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .content {
+    margin-bottom: 23px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    padding-top: 0;
+  }
+  .header {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+  .title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .addSiteBtn {
+    width: 100%;
+  }
+}

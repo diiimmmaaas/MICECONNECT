@@ -1,0 +1,55 @@
+.headerBlock {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 28px;
+  width: 100%;
+}
+
+.titleBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filtersIconBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filtersBlock {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.filter {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #C1C1C1;
+}
+
+.active {
+  border: 1px solid #000;
+}
+
+.filterText {
+  font-family: Jeko-Medium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  .headerBlock {
+    margin-bottom: 40px;
+  }
+  .filtersBlock {
+    margin-top: 10px;
+  }
+}

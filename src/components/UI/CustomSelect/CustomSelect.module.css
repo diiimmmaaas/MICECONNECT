@@ -1,0 +1,30 @@
+.select {
+    min-width: 120px;
+    background: #F8F8F8;
+    border: 1px solid #FDFDFD;
+    border-radius: 12px;
+    padding: 17px;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    cursor: pointer;
+    font-family: 'Jeko-Bold', sans-serif;
+}
+
+.option {
+    background: white;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    cursor: pointer;
+    font-family: 'Jeko-Bold', sans-serif;
+}
+
+.option:checked {
+    background:#F8F8F8;
+}

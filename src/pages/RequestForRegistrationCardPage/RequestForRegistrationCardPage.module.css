@@ -1,0 +1,96 @@
+.requestCard {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 80%;
+  margin-top: 60px;
+  margin-bottom: 200px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 40px;
+}
+
+.btnsBlock {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+}
+
+.saveBtn {
+  width: 227px;
+  height: 48px;
+  background: #000000;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+  border-radius: 100px;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.saveBtn:hover {
+  background: #2D2D2D;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+}
+
+.saveBtn:active {
+  background: #202020;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+}
+
+.saveBtn:disabled {
+  background: #C1C1C1;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+  cursor: auto;
+}
+
+.cancelBtn {
+  width: 227px;
+  height: 48px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+  border-radius: 100px;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+}
+
+.cancelBtn:hover {
+  background: #F9F9F9;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+}
+
+.cancelBtn:active {
+  background: #F1F1F1;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+}
+
+.cancelBtn:disabled {
+  background: #C1C1C1;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+  cursor: auto;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+    margin-top: 25px;
+  }
+}

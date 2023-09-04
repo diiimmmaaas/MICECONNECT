@@ -1,0 +1,59 @@
+.btn {
+  width: 402px;
+  height: 58px;
+  background: #FD5C20;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+  border-radius: 100px;
+  font-family: 'Jeko-Bold', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.btn:hover {
+  background: #FF500F;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+}
+
+.btn:active {
+  background: #FF6126;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+}
+
+.btn:disabled {
+  background: #C1C1C1;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06);
+  cursor: auto;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/*@media screen and (max-width: 1439px) {*/
+/*  .btn {*/
+/*    width: 193px;*/
+/*    height: 40px;*/
+/*    font-size: 14px;*/
+/*    line-height: 17px;*/
+/*  }*/
+/*}*/
+
+/*@media screen and (max-width: 767px) {*/
+/*  .btn {*/
+/*    width: 335px;*/
+/*    height: 48px;*/
+/*    font-size: 16px;*/
+/*    line-height: 20px;*/
+/*  }*/
+/*}*/
+
+

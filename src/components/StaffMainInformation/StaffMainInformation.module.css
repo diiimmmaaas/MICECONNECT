@@ -1,0 +1,77 @@
+.mainInformationBlock {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.mainInformationHeader {
+  padding: 23px 28px 12px 28px;
+  background: #F8F8F8;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #E5E7EB;
+  border-left: 1px solid #E5E7EB;
+  border-right: 1px solid #E5E7EB;
+}
+
+.mainInformationTitle {
+  font-family: 'Jeko-Bold', sans-serif;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.editIconBlock {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+.editIconBlock:hover {
+  background: #EBEBEC;
+}
+
+.editIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.mainInformationContainer {
+  display: flex;
+  width: 100%;
+  gap: 23px;
+  flex-direction: column;
+  padding: 30px;
+  border-bottom:  1px solid #E5E7EB;
+  border-left:  1px solid #E5E7EB;
+  border-right:  1px solid #E5E7EB;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .mainInformationHeader {
+    padding: 18px 10px;
+  }
+  .mainInformationContainer {
+    padding: 20px 10px;
+  }
+  .mainInformationBlock {
+    margin-bottom: 30px;
+  }
+}
+
+

@@ -1,0 +1,48 @@
+.label {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.radioButtonBlock {
+  display: flex;
+  gap: 60px;
+}
+
+.radioButton {
+  appearance: none;
+  width: 26px;
+  height: 26px;
+  background: #F8F8F8;
+  border: 1px solid #D9D9D9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.radioButton:hover {
+  border: 1px solid #000000;
+}
+
+.radioButton:checked {
+  background: black url("../../../assets/icons/checkedRadio.svg") no-repeat center content-box;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .radioButtonBlock {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+

@@ -1,0 +1,151 @@
+.claimTableHeader {
+  width: 100%;
+  height: 90px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: #F8F8F8;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  padding: 25px 15px 25px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftBlock {
+  display: flex;
+  gap: 30px;
+}
+
+.dateBlock {
+  font-family: 'Jeko-Bold', sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.dateControlBlock {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.leftArrowBlock,
+.rightArrowBlock {
+  width: 32px;
+  height: 32px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.leftArrowBlock:hover,
+.rightArrowBlock:hover {
+  background: #EBEBEC;
+}
+
+.leftArrowIcon,
+.rightArrowIcon {
+  width: 8px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.rightBlock {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.swipeInput + .swipeLabel {
+  width: 195px;
+  height: 40px;
+}
+
+.swipeInput + .swipeLabel::after {
+  border-radius: 47px;
+  content: 'Месяц';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 92px;
+  height: 34px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.swipeInput:checked + .swipeLabel::after {
+  content: 'Неделя';
+  left: 100px;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.swipeInput + .swipeLabel {
+  background-color: #EBEBEC;
+}
+
+.swipeInput:checked + .swipeLabel {
+  background-color: #EBEBEC;;
+}
+
+.swipeInput:checked + .swipeLabel::before {
+  content: 'Месяц';
+  left: 25px;
+  right: auto;
+  color: #000000;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.swipeInput + .swipeLabel::before {
+  content: 'Неделя';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  top: 12px;
+  right: 25px;
+}
+
+.swipeInput {}
+
+.swipeLabel {}
+
+.filtersBtn {
+  width: 123px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 100px;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.filtersBtn:hover {
+  border: 1px solid #000000;
+  background: #FFFFFF;
+}

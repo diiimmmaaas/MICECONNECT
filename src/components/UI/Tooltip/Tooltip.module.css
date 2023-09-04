@@ -1,0 +1,28 @@
+.tooltipContainer {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  opacity: 0.8;
+  visibility: visible;
+  transition: opacity 0.2s, visibility 0.2s;
+  word-wrap: break-word;
+  z-index: 1;
+}
+
+.tooltipContainer:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}

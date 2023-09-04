@@ -1,0 +1,339 @@
+.imageCarousel {
+  width: 100%;
+  height: 100%;
+}
+
+
+.slideImagesContainer {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  border-radius: 16px;
+  position: relative;
+}
+
+.slideImage {
+  height: 400px;
+}
+
+.sliderIndicator {}
+
+.oneImagesContainer {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.imagesContainer {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.oneImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.twoImagesFirst {
+  width: 49%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  cursor: pointer;
+}
+
+.twoImagesFirstSecond {
+  width: 49%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  cursor: pointer;
+}
+
+.threeImagesLeftBlock {
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.threeImagesFirst {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  cursor: pointer;
+}
+
+.threeImagesRightBlock {
+  width: 50%;
+  height: 100%;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.threeImagesSecond {
+  width: 100%;
+  height: 49%;
+  object-fit: cover;
+  border-top-right-radius: 16px;
+  cursor: pointer;
+}
+
+.threeImagesThird {
+  width: 100%;
+  height: 49%;
+  object-fit: cover;
+  border-bottom-right-radius: 16px;
+  cursor: pointer;
+}
+
+.fourImagesLeftBlock {
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.fourImagesFirst {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  cursor: pointer;
+}
+
+.fourImagesRightBlock {
+  width: 49%;
+  height: 100%;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.fourImagesRightTopBlock {
+  width: 100%;
+  height: 48%;
+  border-bottom-right-radius: 16px;
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.fourImagesSecond {
+  width: 49%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.fourImagesThird {
+  width: 48%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 16px;
+  cursor: pointer;
+}
+
+.fourImagesFourth {
+  width: 100%;
+  height: 49%;
+  object-fit: cover;
+  border-bottom-right-radius: 16px;
+  cursor: pointer;
+}
+
+.fiveImagesFourth {
+  width: 49%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.fiveImagesFifth {
+  width: 48%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom-right-radius: 16px;
+  cursor: pointer;
+}
+
+.editIconBlock {
+  position: absolute;
+  background: #F8F8F8;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 10px;
+  top: 10px;
+}
+
+.pencilIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.imgCountBlock {
+  position: absolute;
+  width: 46px;
+  height: 23px;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.47);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgCountBlock {
+  margin-top: 5px;
+}
+
+.fullscreenModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.fullscreenContent {
+  border-radius: 30px;
+  width: 90%;
+  height: 90%;
+  max-width: 90vw;
+  max-height: 90vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.overlayModal {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullscreenImage {
+  width: 80%;
+  max-width: 90%;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+.prevButton,
+.nextButton {
+  margin: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+  background: white;
+}
+
+.closeButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F8F8F8;
+}
+
+.closeButtonIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.transitionGroup {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.slide-enter {
+  opacity: 0;
+  transform: scale(1.1);
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+}
+
+.slide-enter-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.slide-exit {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+}
+
+.slide-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+
+
+@media screen and (max-width: 1439px) {
+  .slideImagesContainer {
+    height: 300px;
+  }
+  .slideImage {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slideImagesContainer {
+    height: 200px;
+  }
+  .slideImage {
+    height: 200px;
+  }
+}
+
+
+

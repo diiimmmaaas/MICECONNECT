@@ -1,0 +1,85 @@
+.mainPage {
+  /*width: 100vw;*/
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  padding-top: 63px;
+  width: 90%;
+  margin-bottom: 232px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-bottom: 8px;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.description {
+  margin-bottom: 27px;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #6B7280;
+}
+
+.addSiteBtn {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .description {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    padding-top: 0;
+  }
+  .title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .description {
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 17px;
+  }
+  .header {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .addSiteBtn {
+    width: 335px !important;
+    height: 48px !important;
+  }
+}
+
+

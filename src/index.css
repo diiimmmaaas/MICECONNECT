@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import "react-slideshow-image/dist/styles.css";
+
+@font-face {
+  font-family: "Futura Bk BT";
+  src: local("Futura Bk BT"), url("assets/fonts/Futura-Bk-BT.woff") format("woff"), url("assets/fonts/Futura-Bk-BT.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Jeko-Bold";
+  src: local("Jeko-Bold"), url("assets/fonts/Jeko-Bold.woff") format("woff"), url("assets/fonts/Jeko-Bold.woff2") format("woff2"), url("assets/fonts/Jeko-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Jeko-Medium";
+  src: local("Jeko-Medium"), url("assets/fonts/Jeko-Medium.woff") format("woff"), url("assets/fonts/Jeko-Medium.woff2") format("woff2");
+}
+
+body {
+  background: #FFFFFF;
+}
+
+code {
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Jeko-Medium', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+input {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #303030;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #F8F8F8;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color:  #6B7280;
+  border-radius: 20px;
+  border: 3px solid #6B7280;
+}
+

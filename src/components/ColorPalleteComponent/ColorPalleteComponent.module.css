@@ -1,0 +1,20 @@
+.label {}
+
+.radioButton {
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.radioButton:checked {
+  background-image: url("../../assets/icons/checkedRadio.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-origin: content-box !important;
+  background-size: 24px !important;
+}

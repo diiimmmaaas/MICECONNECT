@@ -1,0 +1,17 @@
+variables:
+  DOCKER_FILE_LOCATION: .
+  PROJECT_NAME: miceconnect_web
+  DEVELOP_DOCKER_STACK_FILE: ./cicd/docker-stack.develop.yml
+
+stages:
+  - make_image
+  - deploy_image
+  - clean
+
+include:
+  - project: 'templates/cicd-templates'
+    ref: v2.0.2
+    file:
+      - 'make_docker_image.yml'
+      - 'deploy_to_develop.yml'
+      - 'clean.yml'
